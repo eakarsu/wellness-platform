@@ -1,0 +1,7 @@
+AIHealthcareCompanion
+AIMentalHealthCompanion
+AINutritionDietitianAssistant
+AiRecipeMealPlanner
+coaching
+coaching-wellness
+recipemanager

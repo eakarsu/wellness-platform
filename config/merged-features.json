@@ -1,0 +1,4612 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/contact",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Contact"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "contact",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Contact & Support"
+      },
+      {
+        "module": "coaching",
+        "path": "#contact",
+        "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+        "kind": "definition",
+        "label": "Contact"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/notifications",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Notifications"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "notifications",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Notifications & Reminders"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medications",
+    "title": "Medications",
+    "group": "Healthcare companion",
+    "description": "Organize medications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/medications",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Medications"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "medications",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Medication Reminder"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/medications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "physical-therapy",
+    "title": "Physical Therapy",
+    "group": "Healthcare companion",
+    "description": "Organize physical therapy and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/physical-therapy",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Physical Therapy"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "physical-therapy",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Physical Therapy Guide"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/physical-therapy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skin-scans",
+    "title": "Skin Scanner",
+    "group": "Healthcare companion",
+    "description": "Organize skin scanner and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/skin-scans",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Skin Scanner"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "skin-scans",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Dermatology Scanner"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/skin-scans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vision-tests",
+    "title": "Vision Tests",
+    "group": "Healthcare companion",
+    "description": "Organize vision tests and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/vision-tests",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Vision Tests"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "vision-tests",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Vision Test"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/vision-tests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medical-history",
+    "title": "Medical History",
+    "group": "Healthcare companion",
+    "description": "Organize medical history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/medical-history",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Medical History"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "medical-history",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Medical History Analyzer"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/medical-history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lab-trend-watch",
+    "title": "Lab Trend Watch",
+    "group": "Healthcare companion",
+    "description": "Organize lab trend watch and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/lab-trend-watch",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Lab Trend Watch"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/lab-trend-watch",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "feedback",
+    "title": "Feedback",
+    "group": "Healthcare companion",
+    "description": "Organize feedback and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "/feedback",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Feedback"
+      },
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "feedback",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Feedback & Suggestions"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/feedback",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "privacy-policy",
+    "title": "Privacy Policy",
+    "group": "Healthcare companion",
+    "description": "Learn how we protect and handle your health data",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "privacy-policy",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Privacy Policy"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/privacy-policy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "terms-of-service",
+    "title": "Terms of Service",
+    "group": "Healthcare companion",
+    "description": "Review the terms and conditions of using our platform",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "terms-of-service",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Terms of Service"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/terms-of-service",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "admin",
+    "title": "Admin",
+    "group": "Healthcare companion",
+    "description": "Organize admin and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "admin",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "Admin"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/admin",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "advanced-advisors",
+    "title": "Advanced advisors",
+    "group": "Healthcare companion",
+    "description": "Organize advanced advisors and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "advanced-advisors",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "Advanced advisors"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/advanced-advisors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-health-assistant-monitoring-tren",
+    "title": "agentic health assistant monitoring tren",
+    "group": "Healthcare companion",
+    "description": "Organize agentic health assistant monitoring tren and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-agentic-health-assistant-monitoring-tren",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "agentic health assistant monitoring tren"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/agentic-health-assistant-monitoring-tren",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "personalized-health-coaching-generating",
+    "title": "personalized health coaching generating",
+    "group": "Healthcare companion",
+    "description": "Organize personalized health coaching generating and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-personalized-health-coaching-generating-",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "personalized health coaching generating"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/personalized-health-coaching-generating",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-adherence-ai-predicting-misse",
+    "title": "medication adherence ai predicting misse",
+    "group": "Healthcare companion",
+    "description": "Organize medication adherence ai predicting misse and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-medication-adherence-ai-predicting-misse",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "medication adherence ai predicting misse"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/medication-adherence-ai-predicting-misse",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "symptom-to-specialist-routing-with-likel",
+    "title": "symptom to specialist routing with likel",
+    "group": "Healthcare companion",
+    "description": "Organize symptom to specialist routing with likel and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-symptom-to-specialist-routing-with-likel",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "symptom to specialist routing with likel"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/symptom-to-specialist-routing-with-likel",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "preventive-health-roadmap-by-age-family",
+    "title": "preventive health roadmap by age family",
+    "group": "Healthcare companion",
+    "description": "Organize preventive health roadmap by age family and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-preventive-health-roadmap-by-age-family",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "preventive health roadmap by age family"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/preventive-health-roadmap-by-age-family",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multimodal-health-dashboard-fusing-weara",
+    "title": "multimodal health dashboard fusing weara",
+    "group": "Healthcare companion",
+    "description": "Organize multimodal health dashboard fusing weara and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "cf-multimodal-health-dashboard-fusing-weara",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "multimodal health dashboard fusing weara"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/multimodal-health-dashboard-fusing-weara",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "symptom-analyzer-endpoint",
+    "title": "symptom analyzer endpoint",
+    "group": "Healthcare companion",
+    "description": "Organize symptom analyzer endpoint and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-symptom-analyzer-endpoint",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "symptom analyzer endpoint"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/symptom-analyzer-endpoint",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-interaction-checker",
+    "title": "medication interaction checker",
+    "group": "Healthcare companion",
+    "description": "Organize medication interaction checker and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-medication-interaction-checker",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "medication interaction checker"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/medication-interaction-checker",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "therapy-progress-analyzer",
+    "title": "therapy progress analyzer",
+    "group": "Healthcare companion",
+    "description": "Organize therapy progress analyzer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-therapy-progress-analyzer",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "therapy progress analyzer"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/therapy-progress-analyzer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skin-lesion-vision-ai",
+    "title": "skin lesion vision ai",
+    "group": "Healthcare companion",
+    "description": "Organize skin lesion vision ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-skin-lesion-vision-ai",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "skin lesion vision ai"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/skin-lesion-vision-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vision-test-interpreter",
+    "title": "vision test interpreter",
+    "group": "Healthcare companion",
+    "description": "Organize vision test interpreter and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-vision-test-interpreter",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "vision test interpreter"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/vision-test-interpreter",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-adherence-pattern-model",
+    "title": "medication adherence pattern model",
+    "group": "Healthcare companion",
+    "description": "Organize medication adherence pattern model and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-medication-adherence-pattern-model",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "medication adherence pattern model"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/medication-adherence-pattern-model",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "provider-portal-share-data-with",
+    "title": "provider portal share data with",
+    "group": "Healthcare companion",
+    "description": "Organize provider portal share data with and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-provider-portal-share-data-with",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "provider portal share data with"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/provider-portal-share-data-with",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prescription-pharmacy-integration",
+    "title": "prescription pharmacy integration",
+    "group": "Healthcare companion",
+    "description": "Prepare prescription pharmacy integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-prescription-pharmacy-integration",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "prescription pharmacy integration"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/prescription-pharmacy-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "appointment-scheduling",
+    "title": "appointment scheduling",
+    "group": "Healthcare companion",
+    "description": "Organize appointment scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-appointment-scheduling",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "appointment scheduling"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/appointment-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "telemedicine",
+    "title": "telemedicine",
+    "group": "Healthcare companion",
+    "description": "Organize telemedicine and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-telemedicine",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "telemedicine"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/telemedicine",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insurance-information-module",
+    "title": "insurance information module",
+    "group": "Healthcare companion",
+    "description": "Organize insurance information module and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-insurance-information-module",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "insurance information module"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/insurance-information-module",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lab-result-import",
+    "title": "lab result import",
+    "group": "Healthcare companion",
+    "description": "Organize lab result import and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-lab-result-import",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "lab result import"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/lab-result-import",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-surface",
+    "title": "webhook surface",
+    "group": "Healthcare companion",
+    "description": "Prepare webhook surface requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIHealthcareCompanion",
+        "path": "gap-no-webhook-surface",
+        "source": "/Volumes/external/projects/AIHealthcareCompanion",
+        "kind": "route",
+        "label": "webhook surface"
+      }
+    ],
+    "owner": "AIHealthcareCompanion",
+    "alternatives": [],
+    "path": "/features/webhook-surface",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "moods",
+    "title": "Mood Tracker",
+    "group": "Mental health companion",
+    "description": "Organize mood tracker and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/moods",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Mood Tracker"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/moods",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "journal",
+    "title": "Journal",
+    "group": "Mental health companion",
+    "description": "Organize journal and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/journal",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Journal"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/journal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chat",
+    "title": "AI Therapy Chat",
+    "group": "Mental health companion",
+    "description": "Organize ai therapy chat and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/chat",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "AI Therapy Chat"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/chat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sleep",
+    "title": "Sleep Tracker",
+    "group": "Mental health companion",
+    "description": "Organize sleep tracker and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/sleep",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Sleep Tracker"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/sleep",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meditation",
+    "title": "Meditation",
+    "group": "Mental health companion",
+    "description": "Organize meditation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/meditation",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Meditation"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/meditation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "breathing",
+    "title": "Breathing",
+    "group": "Mental health companion",
+    "description": "Organize breathing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/breathing",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Breathing"
+      },
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/breathing",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Breathing Exercises"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/breathing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gratitude",
+    "title": "Gratitude Log",
+    "group": "Mental health companion",
+    "description": "Organize gratitude log and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/gratitude",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Gratitude Log"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/gratitude",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "affirmations",
+    "title": "Affirmations",
+    "group": "Mental health companion",
+    "description": "Organize affirmations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/affirmations",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Affirmations"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/affirmations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "selfcare",
+    "title": "Self-Care",
+    "group": "Mental health companion",
+    "description": "Organize self-care and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/selfcare",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Self-Care"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/selfcare",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "coping",
+    "title": "Coping Strategies",
+    "group": "Mental health companion",
+    "description": "Organize coping strategies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/coping",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Coping Strategies"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/coping",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "goals",
+    "title": "Goals",
+    "group": "Mental health companion",
+    "description": "Organize goals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/goals",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Goals"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/goals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "assessments",
+    "title": "Assessments",
+    "group": "Mental health companion",
+    "description": "Organize assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/assessments",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Assessments"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "groups",
+    "title": "Support Groups",
+    "group": "Mental health companion",
+    "description": "Organize support groups and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/groups",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Support Groups"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/groups",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crisis",
+    "title": "Crisis Resources",
+    "group": "Mental health companion",
+    "description": "Organize crisis resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/crisis",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Crisis Resources"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/crisis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "therapists",
+    "title": "Find Therapist",
+    "group": "Mental health companion",
+    "description": "Organize find therapist and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/therapists",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Find Therapist"
+      },
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/therapists",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Therapist Directory"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/therapists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "journal-sentiment",
+    "title": "Journal Sentiment",
+    "group": "Mental health companion",
+    "description": "Analyze sentiment, emotions, and themes from a journal entry; layered with crisis check.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Journal Entry",
+        "type": "textarea"
+      },
+      {
+        "name": "context",
+        "label": "Context (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/journal-sentiment",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Journal Sentiment"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/journal-sentiment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crisis-assessment",
+    "title": "Crisis Assessment",
+    "group": "Mental health companion",
+    "description": "Risk level, score, warning signs, and escalation flag; merges keyword and model judgement.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "What you are feeling",
+        "type": "textarea"
+      },
+      {
+        "name": "recentEvents",
+        "label": "Recent Events (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/crisis-assessment",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Crisis Assessment"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/crisis-assessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "coping-recommendation",
+    "title": "Coping Recommendation",
+    "group": "Mental health companion",
+    "description": "Personalized coping strategy recommendations from the catalog, with immediate and long-term actions.",
+    "fields": [
+      {
+        "name": "situation",
+        "label": "Situation",
+        "type": "textarea"
+      },
+      {
+        "name": "mood",
+        "label": "Current Mood",
+        "type": "text"
+      },
+      {
+        "name": "preferredStyle",
+        "label": "Preferred Style (optional)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/coping-recommendation",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Coping Recommendation"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/coping-recommendation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "therapist-match",
+    "title": "Therapist Match",
+    "group": "Mental health companion",
+    "description": "Match with a therapist based on preferences, modality, and concerns.",
+    "fields": [
+      {
+        "name": "preferences",
+        "label": "Preferences",
+        "type": "textarea"
+      },
+      {
+        "name": "concerns",
+        "label": "Concerns",
+        "type": "textarea"
+      },
+      {
+        "name": "modality",
+        "label": "Preferred Modality",
+        "type": "text"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/therapist-match",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Therapist Match"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/therapist-match",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sleep-advisor",
+    "title": "Sleep Advisor",
+    "group": "Mental health companion",
+    "description": "CBT-I based recommendations from your routine and sleep logs.",
+    "fields": [
+      {
+        "name": "sleep_logs",
+        "label": "Sleep Logs (optional, JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "current_routine",
+        "label": "Current Routine",
+        "type": "textarea"
+      },
+      {
+        "name": "goals",
+        "label": "Sleep Goals",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/sleep-advisor",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Sleep Advisor"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/sleep-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mood-trend-analysis",
+    "title": "Mood Trend Analysis",
+    "group": "Mental health companion",
+    "description": "Spot trends, triggers, and patterns in your mood data.",
+    "fields": [
+      {
+        "name": "mood_logs",
+        "label": "Mood Logs (optional, JSON or text)",
+        "type": "textarea"
+      },
+      {
+        "name": "range_days",
+        "label": "Range (days)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "/ai/mood-trend-analysis",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+        "kind": "definition",
+        "label": "Mood Trend Analysis"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/mood-trend-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-integrations",
+    "title": "Care integrations",
+    "group": "Mental health companion",
+    "description": "Prepare care integrations requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "care-integrations",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+        "kind": "route",
+        "label": "Care integrations"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/care-integrations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-plan-adherence",
+    "title": "Safety plan adherence",
+    "group": "Mental health companion",
+    "description": "Organize safety plan adherence and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIMentalHealthCompanion",
+        "path": "safety-plan-adherence",
+        "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+        "kind": "route",
+        "label": "Safety plan adherence"
+      }
+    ],
+    "owner": "AIMentalHealthCompanion",
+    "alternatives": [],
+    "path": "/features/safety-plan-adherence",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "users",
+    "title": "Users",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize users and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "users",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Users"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/users",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meal-plans",
+    "title": "Meal plans",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize meal plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "meal_plans",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Meal plans"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/meal-plans",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Meal Plans"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/meal-plans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calorie-entries",
+    "title": "Calorie entries",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize calorie entries and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "calorie_entries",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Calorie entries"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/calorie-entries",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recipes",
+    "title": "Recipes",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize recipes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "recipes",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Recipes"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/recipes",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Recipes"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/recipes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nutrient-analyses",
+    "title": "Nutrient analyses",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize nutrient analyses and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "nutrient_analyses",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Nutrient analyses"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/nutrient-analyses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "diet-recommendations",
+    "title": "Diet recommendations",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize diet recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "diet_recommendations",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Diet recommendations"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/diet-recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "food-allergies",
+    "title": "Food allergies",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize food allergies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "food_allergies",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Food allergies"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/food-allergies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "grocery-lists",
+    "title": "Grocery lists",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize grocery lists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "grocery_lists",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Grocery lists"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/grocery-lists",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Grocery Lists"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/grocery-lists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bmi-records",
+    "title": "Bmi records",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize bmi records and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "bmi_records",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Bmi records"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/bmi-records",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "water-intake",
+    "title": "Water intake",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize water intake and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "water_intake",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Water intake"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/water-intake",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplements",
+    "title": "Supplements",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize supplements and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "supplements",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Supplements"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/supplements",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fitness-meal-preps",
+    "title": "Fitness meal preps",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize fitness meal preps and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "fitness_meal_preps",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Fitness meal preps"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/fitness-meal-preps",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "food-substitutions",
+    "title": "Food substitutions",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize food substitutions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "food_substitutions",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Food substitutions"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/food-substitutions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fasting-schedules",
+    "title": "Fasting schedules",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize fasting schedules and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "fasting_schedules",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Fasting schedules"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/fasting-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vitamin-checks",
+    "title": "Vitamin checks",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize vitamin checks and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "vitamin_checks",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Vitamin checks"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/vitamin-checks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chat-history",
+    "title": "Chat history",
+    "group": "Nutrition dietitian assistant",
+    "description": "Organize chat history and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AINutritionDietitianAssistant",
+        "path": "ai_chat_history",
+        "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+        "kind": "schema",
+        "label": "Chat history"
+      }
+    ],
+    "owner": "AINutritionDietitianAssistant",
+    "alternatives": [],
+    "path": "/features/chat-history",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nutrition",
+    "title": "Nutrition",
+    "group": "Recipe meal planner",
+    "description": "Organize nutrition and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/nutrition",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Nutrition"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/nutrition",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Nutrition Tracker"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/nutrition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ingredients",
+    "title": "Ingredients",
+    "group": "Recipe meal planner",
+    "description": "Organize ingredients and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/ingredients",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Ingredients"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/ingredients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "categories",
+    "title": "Categories",
+    "group": "Recipe meal planner",
+    "description": "Organize categories and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/categories",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Categories"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/categories",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dietary-profiles",
+    "title": "Dietary Adjuster",
+    "group": "Recipe meal planner",
+    "description": "Organize dietary adjuster and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/dietary-profiles",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Dietary Adjuster"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/dietary-profiles",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Dietary Adjuster"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/dietary-profiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "grocery-optimizations",
+    "title": "Grocery Optimizer",
+    "group": "Recipe meal planner",
+    "description": "Organize grocery optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/grocery-optimizations",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Grocery Optimizer"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/grocery-optimizations",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Grocery Optimizer"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/grocery-optimizations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "leftover-suggestions",
+    "title": "Leftover Suggester",
+    "group": "Recipe meal planner",
+    "description": "Organize leftover suggester and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/leftover-suggestions",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Leftover Suggester"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/leftover-suggestions",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Leftover Suggester"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/leftover-suggestions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nutrition-balances",
+    "title": "Nutrition Balancer",
+    "group": "Recipe meal planner",
+    "description": "Organize nutrition balancer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/nutrition-balances",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Nutrition Balancer"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/nutrition-balances",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Nutrition Balancer"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/nutrition-balances",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cooking-timers",
+    "title": "Cooking Timer",
+    "group": "Recipe meal planner",
+    "description": "Organize cooking timer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/cooking-timers",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Cooking Timer"
+      },
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/cooking-timers",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "AI Cooking Timer"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/cooking-timers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "budget-optimizer",
+    "title": "Budget Optimizer",
+    "group": "Recipe meal planner",
+    "description": "Organize budget optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/budget-optimizer",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Budget Optimizer"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/budget-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meal-prep-plan",
+    "title": "Meal Prep Plan",
+    "group": "Recipe meal planner",
+    "description": "Organize meal prep plan and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "/meal-prep-plan",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Meal Prep Plan"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/meal-prep-plan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "verify-email",
+    "title": "Verify email",
+    "group": "Recipe meal planner",
+    "description": "Organize verify email and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "verify-email",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "Verify email"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/verify-email",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dietary-restriction-mapper",
+    "title": "Dietary restriction mapper",
+    "group": "Recipe meal planner",
+    "description": "Organize dietary restriction mapper and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "dietary-restriction-mapper",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "Dietary restriction mapper"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/dietary-restriction-mapper",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "allergen-detection",
+    "title": "Allergen detection",
+    "group": "Recipe meal planner",
+    "description": "Organize allergen detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "allergen-detection",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "Allergen detection"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/allergen-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "seasonal-ingredient-suggester",
+    "title": "Seasonal ingredient suggester",
+    "group": "Recipe meal planner",
+    "description": "Organize seasonal ingredient suggester and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "seasonal-ingredient-suggester",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "Seasonal ingredient suggester"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/seasonal-ingredient-suggester",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "nutritionistintheloop-meal-planning",
+    "title": "nutritionistintheloop meal planning",
+    "group": "Recipe meal planner",
+    "description": "Organize nutritionistintheloop meal planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-nutritionistintheloop-meal-planning",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "nutritionistintheloop meal planning"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/nutritionistintheloop-meal-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "allergyintolerance-profile-builder",
+    "title": "allergyintolerance profile builder",
+    "group": "Recipe meal planner",
+    "description": "Organize allergyintolerance profile builder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-allergyintolerance-profile-builder",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "allergyintolerance profile builder"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/allergyintolerance-profile-builder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "costminimizing-meal-planner",
+    "title": "costminimizing meal planner",
+    "group": "Recipe meal planner",
+    "description": "Organize costminimizing meal planner and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-costminimizing-meal-planner",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "costminimizing meal planner"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/costminimizing-meal-planner",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "cooking-skill-progression",
+    "title": "cooking skill progression",
+    "group": "Recipe meal planner",
+    "description": "Organize cooking skill progression and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-cooking-skill-progression",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "cooking skill progression"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/cooking-skill-progression",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-meal-consensus",
+    "title": "family meal consensus",
+    "group": "Recipe meal planner",
+    "description": "Organize family meal consensus and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-family-meal-consensus",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "family meal consensus"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/family-meal-consensus",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "restaurant-menu-decoder",
+    "title": "restaurant menu decoder",
+    "group": "Recipe meal planner",
+    "description": "Organize restaurant menu decoder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "cf-restaurant-menu-decoder",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "restaurant menu decoder"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/restaurant-menu-decoder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dietaryrestrictionmapper-restrictions-ing",
+    "title": "dietaryrestrictionmapper restrictions ing",
+    "group": "Recipe meal planner",
+    "description": "Organize dietaryrestrictionmapper restrictions ing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-dietaryrestrictionmapper-restrictions-ing",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "dietaryrestrictionmapper restrictions ing"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/dietaryrestrictionmapper-restrictions-ing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "budgetoptimizer-costaware-nutrition-goals",
+    "title": "budgetoptimizer costaware nutrition goals",
+    "group": "Recipe meal planner",
+    "description": "Organize budgetoptimizer costaware nutrition goals and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-budgetoptimizer-costaware-nutrition-goals",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "budgetoptimizer costaware nutrition goals"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/budgetoptimizer-costaware-nutrition-goals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "allergendetection-crosscontamination-risk",
+    "title": "allergendetection crosscontamination risk",
+    "group": "Recipe meal planner",
+    "description": "Organize allergendetection crosscontamination risk and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-allergendetection-crosscontamination-risk",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "allergendetection crosscontamination risk"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/allergendetection-crosscontamination-risk",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "seasonalingredientsuggester",
+    "title": "seasonalingredientsuggester",
+    "group": "Recipe meal planner",
+    "description": "Organize seasonalingredientsuggester and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-seasonalingredientsuggester",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "seasonalingredientsuggester"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/seasonalingredientsuggester",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mealprepplan-batch-cooking-recommendation",
+    "title": "mealprepplan batch cooking recommendation",
+    "group": "Recipe meal planner",
+    "description": "Organize mealprepplan batch cooking recommendation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-mealprepplan-batch-cooking-recommendation",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "mealprepplan batch cooking recommendation"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/mealprepplan-batch-cooking-recommendation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meal-photo-recognition",
+    "title": "meal photo recognition",
+    "group": "Recipe meal planner",
+    "description": "Organize meal photo recognition and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-meal-photo-recognition",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "meal photo recognition"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/meal-photo-recognition",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recipe-ratingsreviews-route",
+    "title": "recipe ratingsreviews route",
+    "group": "Recipe meal planner",
+    "description": "Organize recipe ratingsreviews route and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-recipe-ratingsreviews-route",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "recipe ratingsreviews route"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/recipe-ratingsreviews-route",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "grocery-store-price-api-integration",
+    "title": "grocery store price api integration",
+    "group": "Recipe meal planner",
+    "description": "Prepare grocery store price api integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-grocery-store-price-api-integration",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "grocery store price api integration"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/grocery-store-price-api-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "barcodeproduct-database-lookup-usda-openf",
+    "title": "barcodeproduct database lookup usda openf",
+    "group": "Recipe meal planner",
+    "description": "Organize barcodeproduct database lookup usda openf and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-barcodeproduct-database-lookup-usda-openf",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "barcodeproduct database lookup usda openf"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/barcodeproduct-database-lookup-usda-openf",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pantry-inventory-tracking",
+    "title": "pantry inventory tracking",
+    "group": "Recipe meal planner",
+    "description": "Organize pantry inventory tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-pantry-inventory-tracking",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "pantry inventory tracking"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/pantry-inventory-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sharingsocial-features",
+    "title": "sharingsocial features",
+    "group": "Recipe meal planner",
+    "description": "Organize sharingsocial features and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-sharingsocial-features",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "sharingsocial features"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/sharingsocial-features",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notifications-for-shopping-reminders",
+    "title": "notifications for shopping reminders",
+    "group": "Recipe meal planner",
+    "description": "Organize notifications for shopping reminders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiRecipeMealPlanner",
+        "path": "gap-no-notifications-for-shopping-reminders",
+        "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+        "kind": "route",
+        "label": "notifications for shopping reminders"
+      }
+    ],
+    "owner": "AiRecipeMealPlanner",
+    "alternatives": [],
+    "path": "/features/notifications-for-shopping-reminders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "services",
+    "title": "Services",
+    "group": "Coaching",
+    "description": "Organize services and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "coaching",
+        "path": "#services",
+        "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+        "kind": "definition",
+        "label": "Services"
+      }
+    ],
+    "owner": "coaching",
+    "alternatives": [],
+    "path": "/features/services",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "testimonials",
+    "title": "Testimonials",
+    "group": "Coaching",
+    "description": "Organize testimonials and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "coaching",
+        "path": "#testimonials",
+        "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+        "kind": "definition",
+        "label": "Testimonials"
+      }
+    ],
+    "owner": "coaching",
+    "alternatives": [],
+    "path": "/features/testimonials",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "blog",
+    "title": "Resources",
+    "group": "Coaching",
+    "description": "Organize resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "coaching",
+        "path": "#blog",
+        "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+        "kind": "definition",
+        "label": "Resources"
+      }
+    ],
+    "owner": "coaching",
+    "alternatives": [],
+    "path": "/features/blog",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "coaching-wellness",
+    "title": "Coaching wellness work",
+    "group": "Coaching wellness",
+    "description": "Organize coaching wellness work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "coaching-wellness",
+        "path": "coaching-wellness",
+        "source": "/Volumes/external/projects/coaching-wellness",
+        "kind": "source-workflow",
+        "label": "Coaching wellness work"
+      }
+    ],
+    "owner": "coaching-wellness",
+    "alternatives": [],
+    "path": "/features/coaching-wellness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recipemanager",
+    "title": "Recipemanager work",
+    "group": "Recipemanager",
+    "description": "Organize recipemanager work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "recipemanager",
+        "path": "recipemanager",
+        "source": "/Volumes/external/projects/recipemanager",
+        "kind": "source-workflow",
+        "label": "Recipemanager work"
+      }
+    ],
+    "owner": "recipemanager",
+    "alternatives": [],
+    "path": "/features/recipemanager",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

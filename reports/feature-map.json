@@ -1,0 +1,1128 @@
+{
+  "mapped": [
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/medications",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "medications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/physical-therapy",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "physical-therapy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/skin-scans",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "skin-scans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/vision-tests",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "vision-tests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/medical-history",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "medical-history",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/lab-trend-watch",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "lab-trend-watch",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/notifications",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/feedback",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "/contact",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "canonical": "contacts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "medications",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "medications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "physical-therapy",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "physical-therapy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "skin-scans",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "skin-scans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "vision-tests",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "vision-tests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "medical-history",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "medical-history",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "notifications",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "feedback",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "feedback",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "contact",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "contacts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "privacy-policy",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "privacy-policy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "terms-of-service",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "terms-of-service",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "admin",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "admin",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "advanced-advisors",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "advanced-advisors",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-agentic-health-assistant-monitoring-tren",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "agentic-health-assistant-monitoring-tren",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-personalized-health-coaching-generating-",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "personalized-health-coaching-generating",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-medication-adherence-ai-predicting-misse",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "medication-adherence-ai-predicting-misse",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-symptom-to-specialist-routing-with-likel",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "symptom-to-specialist-routing-with-likel",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-preventive-health-roadmap-by-age-family",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "preventive-health-roadmap-by-age-family",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "cf-multimodal-health-dashboard-fusing-weara",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "multimodal-health-dashboard-fusing-weara",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-symptom-analyzer-endpoint",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "symptom-analyzer-endpoint",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-medication-interaction-checker",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "medication-interaction-checker",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-therapy-progress-analyzer",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "therapy-progress-analyzer",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-skin-lesion-vision-ai",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "skin-lesion-vision-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-vision-test-interpreter",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "vision-test-interpreter",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-medication-adherence-pattern-model",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "medication-adherence-pattern-model",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-provider-portal-share-data-with",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "provider-portal-share-data-with",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-prescription-pharmacy-integration",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "prescription-pharmacy-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-appointment-scheduling",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "appointment-scheduling",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-telemedicine",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "telemedicine",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-insurance-information-module",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "insurance-information-module",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-lab-result-import",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "lab-result-import",
+      "kind": "route"
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "sourceKey": "gap-no-webhook-surface",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "canonical": "webhook-surface",
+      "kind": "route"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/moods",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "moods",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/journal",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "journal",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/chat",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "chat",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/sleep",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "sleep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/meditation",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "meditation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/breathing",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "breathing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/gratitude",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "gratitude",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/affirmations",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "affirmations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/selfcare",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "selfcare",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/coping",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "coping",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/goals",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "goals",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/assessments",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/groups",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "groups",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/crisis",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "crisis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/therapists",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "therapists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/journal-sentiment",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "journal-sentiment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/crisis-assessment",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "crisis-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/coping-recommendation",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "coping-recommendation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/therapist-match",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "therapist-match",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/sleep-advisor",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "sleep-advisor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/ai/mood-trend-analysis",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/AIToolsPage.jsx",
+      "canonical": "mood-trend-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/breathing",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "breathing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "/therapists",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/pages/Dashboard.jsx",
+      "canonical": "therapists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "care-integrations",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "canonical": "care-integrations",
+      "kind": "route"
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "sourceKey": "safety-plan-adherence",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "canonical": "safety-plan-adherence",
+      "kind": "route"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "users",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "users",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "meal_plans",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "meal-plans",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "calorie_entries",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "calorie-entries",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "recipes",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "recipes",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "nutrient_analyses",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "nutrient-analyses",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "diet_recommendations",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "diet-recommendations",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "food_allergies",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "food-allergies",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "grocery_lists",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "grocery-lists",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "bmi_records",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "bmi-records",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "water_intake",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "water-intake",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "supplements",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "supplements",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "fitness_meal_preps",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "fitness-meal-preps",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "food_substitutions",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "food-substitutions",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "fasting_schedules",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "fasting-schedules",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "vitamin_checks",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "vitamin-checks",
+      "kind": "schema"
+    },
+    {
+      "project": "AINutritionDietitianAssistant",
+      "sourceKey": "ai_chat_history",
+      "source": "/Volumes/external/projects/AINutritionDietitianAssistant",
+      "canonical": "chat-history",
+      "kind": "schema"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/recipes",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "recipes",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/meal-plans",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "meal-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/grocery-lists",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "grocery-lists",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/nutrition",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "nutrition",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/ingredients",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "ingredients",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/categories",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "categories",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/dietary-profiles",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "dietary-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/grocery-optimizations",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "grocery-optimizations",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/leftover-suggestions",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "leftover-suggestions",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/nutrition-balances",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "nutrition-balances",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/cooking-timers",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "cooking-timers",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/budget-optimizer",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "budget-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/meal-prep-plan",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "canonical": "meal-prep-plan",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/nutrition",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "nutrition",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/dietary-profiles",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "dietary-profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/grocery-optimizations",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "grocery-optimizations",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/leftover-suggestions",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "leftover-suggestions",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/nutrition-balances",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "nutrition-balances",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "/cooking-timers",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/pages/Dashboard.js",
+      "canonical": "cooking-timers",
+      "kind": "definition"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "verify-email",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "verify-email",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "dietary-restriction-mapper",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "dietary-restriction-mapper",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "allergen-detection",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "allergen-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "seasonal-ingredient-suggester",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "seasonal-ingredient-suggester",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-nutritionistintheloop-meal-planning",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "nutritionistintheloop-meal-planning",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-allergyintolerance-profile-builder",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "allergyintolerance-profile-builder",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-costminimizing-meal-planner",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "costminimizing-meal-planner",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-cooking-skill-progression",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "cooking-skill-progression",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-family-meal-consensus",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "family-meal-consensus",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "cf-restaurant-menu-decoder",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "restaurant-menu-decoder",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-dietaryrestrictionmapper-restrictions-ing",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "dietaryrestrictionmapper-restrictions-ing",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-budgetoptimizer-costaware-nutrition-goals",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "budgetoptimizer-costaware-nutrition-goals",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-allergendetection-crosscontamination-risk",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "allergendetection-crosscontamination-risk",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-seasonalingredientsuggester",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "seasonalingredientsuggester",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-mealprepplan-batch-cooking-recommendation",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "mealprepplan-batch-cooking-recommendation",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-meal-photo-recognition",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "meal-photo-recognition",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-recipe-ratingsreviews-route",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "recipe-ratingsreviews-route",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-grocery-store-price-api-integration",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "grocery-store-price-api-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-barcodeproduct-database-lookup-usda-openf",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "barcodeproduct-database-lookup-usda-openf",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-pantry-inventory-tracking",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "pantry-inventory-tracking",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-sharingsocial-features",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "sharingsocial-features",
+      "kind": "route"
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "sourceKey": "gap-no-notifications-for-shopping-reminders",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "canonical": "notifications-for-shopping-reminders",
+      "kind": "route"
+    },
+    {
+      "project": "coaching",
+      "sourceKey": "#services",
+      "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+      "canonical": "services",
+      "kind": "definition"
+    },
+    {
+      "project": "coaching",
+      "sourceKey": "#testimonials",
+      "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+      "canonical": "testimonials",
+      "kind": "definition"
+    },
+    {
+      "project": "coaching",
+      "sourceKey": "#blog",
+      "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+      "canonical": "blog",
+      "kind": "definition"
+    },
+    {
+      "project": "coaching",
+      "sourceKey": "#contact",
+      "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+      "canonical": "contacts",
+      "kind": "definition"
+    },
+    {
+      "project": "coaching-wellness",
+      "sourceKey": "coaching-wellness",
+      "source": "/Volumes/external/projects/coaching-wellness",
+      "canonical": "coaching-wellness",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "recipemanager",
+      "sourceKey": "recipemanager",
+      "source": "/Volumes/external/projects/recipemanager",
+      "canonical": "recipemanager",
+      "kind": "source-workflow"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "/settings",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion/client/src/pages/Dashboard.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIHealthcareCompanion",
+      "key": "settings",
+      "source": "/Volumes/external/projects/AIHealthcareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "/ai-tools",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion/client/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIMentalHealthCompanion",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIMentalHealthCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner/frontend/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "login",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "register",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "profile",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/recipes/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/meal-plans/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/grocery-lists/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/nutrition/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/dietary-profiles/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/grocery-optimizations/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/leftover-suggestions/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/nutrition-balances/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "/cooking-timers/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiRecipeMealPlanner",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AiRecipeMealPlanner",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "coaching",
+      "key": "#about",
+      "source": "/Volumes/external/projects/coaching/src/components/Navigation.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "coaching-wellness",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    },
+    {
+      "project": "recipemanager",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

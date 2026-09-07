@@ -1,0 +1,29 @@
+{
+  "id": "wellness-platform",
+  "title": "Mental health, nutrition & wellness",
+  "buyer": "Wellness practitioners and personal-care users",
+  "sourceCount": 7,
+  "sources": [
+    "AIHealthcareCompanion",
+    "AIMentalHealthCompanion",
+    "AINutritionDietitianAssistant",
+    "AiRecipeMealPlanner",
+    "coaching",
+    "coaching-wellness",
+    "recipemanager"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46009,
+  "productName": "Mental health, nutrition Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIHealthcareCompanion",
+    "/Volumes/external/projects/AIMentalHealthCompanion",
+    "/Volumes/external/projects/AINutritionDietitianAssistant",
+    "/Volumes/external/projects/AiRecipeMealPlanner",
+    "/Volumes/external/projects/coaching",
+    "/Volumes/external/projects/coaching-wellness",
+    "/Volumes/external/projects/recipemanager"
+  ]
+}

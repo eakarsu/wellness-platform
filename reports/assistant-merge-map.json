@@ -1,0 +1,248 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "verify-email"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 4 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "verify-email",
+        "title": "Verify email",
+        "originalPath": "/features/verify-email"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "medical-history"
+    ],
+    "ai": true,
+    "representativeId": "medical-history",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "medical-history",
+        "title": "Medical History",
+        "originalPath": "/features/medical-history"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "agentic-health-assistant-monitoring-tren",
+      "skin-lesion-vision-ai",
+      "chat",
+      "assessments",
+      "crisis-assessment",
+      "therapist-match",
+      "sleep-advisor",
+      "dietary-profiles",
+      "leftover-suggestions",
+      "nutrition-balances",
+      "cooking-timers",
+      "recipe-ratingsreviews-route",
+      "coaching-wellness",
+      "recipemanager"
+    ],
+    "ai": true,
+    "representativeId": "agentic-health-assistant-monitoring-tren",
+    "description": "One assistant for 14 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "agentic-health-assistant-monitoring-tren",
+        "title": "agentic health assistant monitoring tren",
+        "originalPath": "/features/agentic-health-assistant-monitoring-tren"
+      },
+      {
+        "id": "skin-lesion-vision-ai",
+        "title": "skin lesion vision ai",
+        "originalPath": "/features/skin-lesion-vision-ai"
+      },
+      {
+        "id": "chat",
+        "title": "AI Therapy Chat",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "assessments",
+        "title": "Assessments",
+        "originalPath": "/features/assessments"
+      },
+      {
+        "id": "crisis-assessment",
+        "title": "Crisis Assessment",
+        "originalPath": "/features/crisis-assessment"
+      },
+      {
+        "id": "therapist-match",
+        "title": "Therapist Match",
+        "originalPath": "/features/therapist-match"
+      },
+      {
+        "id": "sleep-advisor",
+        "title": "Sleep Advisor",
+        "originalPath": "/features/sleep-advisor"
+      },
+      {
+        "id": "dietary-profiles",
+        "title": "Dietary Adjuster",
+        "originalPath": "/features/dietary-profiles"
+      },
+      {
+        "id": "leftover-suggestions",
+        "title": "Leftover Suggester",
+        "originalPath": "/features/leftover-suggestions"
+      },
+      {
+        "id": "nutrition-balances",
+        "title": "Nutrition Balancer",
+        "originalPath": "/features/nutrition-balances"
+      },
+      {
+        "id": "cooking-timers",
+        "title": "Cooking Timer",
+        "originalPath": "/features/cooking-timers"
+      },
+      {
+        "id": "recipe-ratingsreviews-route",
+        "title": "recipe ratingsreviews route",
+        "originalPath": "/features/recipe-ratingsreviews-route"
+      },
+      {
+        "id": "coaching-wellness",
+        "title": "Coaching wellness work",
+        "originalPath": "/features/coaching-wellness"
+      },
+      {
+        "id": "recipemanager",
+        "title": "Recipemanager work",
+        "originalPath": "/features/recipemanager"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "medication-adherence-ai-predicting-misse",
+      "symptom-analyzer-endpoint",
+      "therapy-progress-analyzer",
+      "coping-recommendation",
+      "mood-trend-analysis",
+      "grocery-optimizations",
+      "mealprepplan-batch-cooking-recommendation"
+    ],
+    "ai": true,
+    "representativeId": "medication-adherence-ai-predicting-misse",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "medication-adherence-ai-predicting-misse",
+        "title": "medication adherence ai predicting misse",
+        "originalPath": "/features/medication-adherence-ai-predicting-misse"
+      },
+      {
+        "id": "symptom-analyzer-endpoint",
+        "title": "symptom analyzer endpoint",
+        "originalPath": "/features/symptom-analyzer-endpoint"
+      },
+      {
+        "id": "therapy-progress-analyzer",
+        "title": "therapy progress analyzer",
+        "originalPath": "/features/therapy-progress-analyzer"
+      },
+      {
+        "id": "coping-recommendation",
+        "title": "Coping Recommendation",
+        "originalPath": "/features/coping-recommendation"
+      },
+      {
+        "id": "mood-trend-analysis",
+        "title": "Mood Trend Analysis",
+        "originalPath": "/features/mood-trend-analysis"
+      },
+      {
+        "id": "grocery-optimizations",
+        "title": "Grocery Optimizer",
+        "originalPath": "/features/grocery-optimizations"
+      },
+      {
+        "id": "mealprepplan-batch-cooking-recommendation",
+        "title": "mealprepplan batch cooking recommendation",
+        "originalPath": "/features/mealprepplan-batch-cooking-recommendation"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "journal-sentiment"
+    ],
+    "ai": true,
+    "representativeId": "journal-sentiment",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "journal-sentiment",
+        "title": "Journal Sentiment",
+        "originalPath": "/features/journal-sentiment"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "budget-optimizer"
+    ],
+    "ai": true,
+    "representativeId": "budget-optimizer",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "budget-optimizer",
+        "title": "Budget Optimizer",
+        "originalPath": "/features/budget-optimizer"
+      }
+    ]
+  }
+]

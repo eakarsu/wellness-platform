@@ -1,0 +1,9 @@
+{
+  "app": "wellness-platform",
+  "features": 121,
+  "sourceApps": 7,
+  "calculatorEngines": 0,
+  "registryHash": "fa538d3d1dba63a40188ab4b27c673405c1f6acee14b4e7c6180084e4ce22047",
+  "builtAt": "2026-09-07T22:05:29.514Z",
+  "status": "built"
+}

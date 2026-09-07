@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AIHealthcareCompanion",
+    "name": "Healthcare companion",
+    "sourceProject": "AIHealthcareCompanion",
+    "services": []
+  },
+  {
+    "id": "AIMentalHealthCompanion",
+    "name": "Mental health companion",
+    "sourceProject": "AIMentalHealthCompanion",
+    "services": []
+  },
+  {
+    "id": "AINutritionDietitianAssistant",
+    "name": "Nutrition dietitian assistant",
+    "sourceProject": "AINutritionDietitianAssistant",
+    "services": []
+  },
+  {
+    "id": "AiRecipeMealPlanner",
+    "name": "Recipe meal planner",
+    "sourceProject": "AiRecipeMealPlanner",
+    "services": []
+  },
+  {
+    "id": "coaching",
+    "name": "Coaching",
+    "sourceProject": "coaching",
+    "services": []
+  },
+  {
+    "id": "coaching-wellness",
+    "name": "Coaching wellness",
+    "sourceProject": "coaching-wellness",
+    "services": []
+  },
+  {
+    "id": "recipemanager",
+    "name": "Recipemanager",
+    "sourceProject": "recipemanager",
+    "services": []
+  }
+]
