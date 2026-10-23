@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-medications",
+      "feature": "medications",
+      "title": "Medications insight",
+      "focus": "Summarize Medications records: totals, status mix, field coverage and recent activity. Use only supplied records; no diagnosis, no prescribing or dosing advice — encourage review by a qualified clinician."
+    },
+    {
+      "id": "insight-lab-trend-watch",
+      "feature": "lab-trend-watch",
+      "title": "Lab trend watch insight",
+      "focus": "Summarize Lab Trend Watch records: totals, status mix, field coverage and recent activity. Use only supplied records; no diagnosis or clinical interpretation — encourage review by a qualified clinician."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
